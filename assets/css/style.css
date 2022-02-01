@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body{
+     margin: 0;
+     padding: 0;
+  }
+  
+  body {
+     width: 100%;
+     height: 1200px;
+     font-size: 22px;
+     font-family: 'EB Garamond', serif;
+     color:black;
+     background-color:#ffffff;
+     background-image: url('img/sfondo1.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    }
+      .menu {
+       width: 100%;
+       position:fixed;
+       top: 0;
+       background-color:rgba(255, 255, 255, 0.904);
+       max-height: 70px;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content:space-evenly;
+     
+       color: black;
+     }
+       
+        a  {
+         color: black;
+         text-decoration: none;
+         justify-content:space-evenly;
+         margin-top: 20px;
+         padding: 1px;
+        }
+         a:link{
+         color:#000000;
+         text-decoration: none;
+        }
+         a:visited {
+         color: #303133;
+         text-decoration: none;
+        }
+         a:hover {
+         color: #303133;
+         text-decoration: none;
+        }
+         a:active{
+         color: black;
+         text-decoration: none;
+        }
+       
+  
+     
+      .home{
+        margin-top: 70px;
+       width: 100%;
+       height: auto;
+       
+      }
+        h1{
+         text-align: center;
+        }
+        h2{
+          text-align: center;
+          padding: 5%;
+        }
+         h4{
+           text-align: right;
+           text-decoration: solid;
+           font-style: bold;
+          }
+      .container2, .container1{ 
+        
+        text-align:left;
+        padding: 25%; 
+        padding-top: 5%;
+        padding-bottom: 0;
+        margin: 0;
+        
+      }
+      .container2{
+        font-style: italic;
+      }
+      .container{
+       padding: 5%;
+       margin: 10%;
+       width: auto;
+       color: black;
+       text-align:left;
+       border: double;
+       background-color:rgba(255, 255, 255, 0.301);
+      
+      } 
+      p {
+        text-indent: 0;
+        margin-bottom: 1em;
+       }
+       #black{
+           color: blue;
+           text-decoration:none;
+       }
+       .card-skill, .works, .content, .card-cont{
+         display: flex;
+         justify-content:center;
+         align-content: center;
+         justify-content: space-evenly;
+        }
+        .card-skill{
+            flex-wrap: wrap;
+          
+        }
+        .card{
+            display: inline-block;
+            margin-left: 1px;;
+            width: auto;
+            
+        }
+        h3{
+            text-align: center;
+        }
+        
+       .works{
+         flex-direction: column;
+         align-items: center;
+       }
+       .content{
+         width: 100%;
+       }
+       .pulsante1, .pulsante2{
+        font-size: 20px;
+        background-color:rgba(255, 255, 255, 0.904);   
+        font-family: 'EB Garamond', serif;
+        color: black;
+        width: 60%;
+        left: 40%;
+        }
+        .pulsante1{
+          background-color: rgba(43, 106, 158, 0.679);
+        
+        }
+
+       #name, #email{
+         background: rgba(255, 255, 255, 0.801);          
+         border-style: inset;
+       }
+       textarea{
+        background: rgba(255, 255, 255, 0.801);   
+        border: solid black;
+        border-style:dashed;
+       }
+    footer{
+        width: 100%;
+        height: 40px;
+        padding-top: 20px;
+        background-color:rgba(255, 255, 255, 0.301);
+        color: black;
+        text-align: center;
+
+    }  
+    @media only screen and  (min-height: 280px) and (max-width: 480px) and (orientation: portrait ) and (orientation: landscape )  {
+      *{
+        padding: 0;
+        margin: 0;
+
+      }
+      body::after {
+        content: "";
+          display: block;
+        position: fixed;
+        top:0;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: -10;
+        background-image:url(img/sfondo-3.jpg);
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-size: 18px;
+        font-family: 'EB Garamond', serif;
+        color:black;
+      }
+      .menu {
+        width: 100%;
+        position:fixed;
+        top: 0;
+       background-color:rgba(255, 255, 255, 0.959);
+        max-height: 70px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:space-evenly;
+        color: black;
+      }  
+         a  {
+          color: black;
+          text-decoration: none;
+          justify-content:space-evenly;
+          margin-top: 20px;
+          padding: 1px;
+         }
+          a:link{
+          color:#000000;
+          text-decoration: none;
+         }
+          a:visited {
+          color: #303133;
+          text-decoration: none;
+         }
+          a:hover {
+          color: #303133;
+          text-decoration: none;
+         }
+          a:active{
+          color: black;
+          text-decoration: none;
+         }
+
+       .home{
+         margin-top: 80px;
+        width: 100%;
+        height: auto;
+        
+       }
+         h1{
+          text-align: center;
+         }
+         h2{
+           text-align: center;
+         }
+          h4{
+            text-align: right;
+            text-decoration: solid;
+            font-style: bold;
+           }
+       .container, .container1,.container2 {
+        padding: 5%;
+        margin: 10%;
+        width: auto;
+        color: black;
+        text-align:left;
+        border: double;
+        background-color:rgba(255, 255, 255, 0.356);
+       
+       } 
+       .container2{
+         font-style: italic;
+       }
+
+        p {
+        text-indent: 0;
+        margin-bottom: 10px;
+       }
+
+        #black{
+          color: blue;      
+            text-decoration: none;
+            
+        }
+        .card-skill, .works, .content, .card-cont{
+          display: flex;
+          justify-content:center;
+          align-content: center;
+          justify-content: space-evenly;
+          padding: 1vw;
+         }
+         .card-skill{
+          flex-wrap: wrap;
+           
+         }
+         .card{
+          display: inline-block;
+         margin-left: 1px;;
+         width: auto;
+             
+         }
+         h3{
+          text-align: center;
+         }
+         
+        .works{
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .works img{
+          width: 200px;
+          height: 200px;
+
+        }
+        .content{
+          width: 100%;
+        }
+         .pulsante1, .pulsante2{
+           font-size: 16px;
+           background-color:rgba(255, 255, 255, 0.904);
+           font-family: 'EB Garamond', serif;
+           border-radius: 25px;
+           width: 60%;
+           left: 40%;
+           }
+           .pulsante1{
+             background-color: rgba(43, 106, 158, 0.678);
+           }
+        
+           
+        #name, #email{
+          background-color:rgba(255, 255, 255, 0.801);         
+          border-style: inset;
+        }
+        textarea{
+          background-color:rgba(255, 255, 255, 0.801);
+         border: solid black;
+         border-style:dashed;
+         width: 220px;
+        }
+     footer{
+         width: 100%;
+         height: 40px;
+         padding-top: 20px;
+         background-color:rgba(255, 255, 255, 0.301);
+         color: black;
+         text-align: center;
+        }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 899px) and (min-height: 481px) {
+      *{
+        padding: 0;
+        margin: 0;
+
+      }
+      body::after {
+        content: "";
+        display: block;
+        position: fixed;
+        top:0;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: -10;
+        background-image:url(img/sfondo-3.jpg);
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-size: 20px;
+        font-family: 'EB Garamond', serif;
+        color:black;
+      }
+      .menu {
+        width: 100%;
+        position:fixed;
+        top: 0;
+       background-color:rgba(255, 255, 255, 0.959);
+        max-height: 70px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:space-evenly;
+        color: black;
+      }  
+         a  {
+          color: black;
+          text-decoration: none;
+          justify-content:space-evenly;
+          margin-top: 20px;
+          padding: 1px;
+         }
+          a:link{
+          color:#000000;
+          text-decoration: none;
+         }
+          a:visited {
+          color: #303133;
+          text-decoration: none;
+         }
+          a:hover {
+          color: #303133;
+          text-decoration: none;
+         }
+          a:active{
+          color: black;
+          text-decoration: none;
+         }
+        
+   
+       .home{
+         margin-top: 80px;
+        width: 100%;
+        height: auto;
+        
+       }
+         h1{
+          text-align: center;
+         }
+         h2{
+           text-align: center;
+         }
+          h4{
+            text-align: right;
+            text-decoration: solid;
+            font-style: bold;
+           }
+       .container, .container1,.container2 {
+        padding: 5%;
+        margin: 10%;
+        width: auto;
+        color: black;
+        text-align:left;
+        border: double;
+        background-color:rgba(255, 255, 255, 0.356);
+       
+       } 
+       .container2{
+         font-style: italic;
+       }
+
+        p {
+        text-indent: 0;
+        margin-bottom: 10px;
+       }
+
+        #black{
+          color: blue;      
+            text-decoration: none;
+            
+        }
+        .card-skill, .works, .content, .card-cont{
+          display: flex;
+          justify-content:center;
+          align-content: center;
+          justify-content: space-evenly;
+          padding: 1vw;
+         }
+         .card-skill{
+          flex-wrap: wrap;
+           
+         }
+         .card{
+          display: inline-block;
+         margin-left: 1px;;
+         width: auto;
+             
+         }
+         h3{
+          text-align: center;
+         }
+         
+        .works{
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .works img{
+          width: 200px;
+          height: 200px;
+
+        }
+        .content{
+          width: 100%;
+        }
+         .pulsante1, .pulsante2{
+           font-size: 18px;
+           background-color:rgba(255, 255, 255, 0.904);
+           font-family: 'EB Garamond', serif;
+           border-radius: 25px;
+           width: 60%;
+           left: 40%;
+           }
+           .pulsante1{
+             background-color: rgba(43, 106, 158, 0.678);
+           }
+        
+           
+        #name, #email{
+          background-color:rgba(255, 255, 255, 0.801);         
+          border-style: inset;
+        }
+        textarea{
+          background-color:rgba(255, 255, 255, 0.801);
+         border: solid black;
+         border-style:dashed;
+         width: 220px;
+        }
+     footer{
+         width: 100%;
+         height: 40px;
+         padding-top: 20px;
+         background-color:rgba(255, 255, 255, 0.301);
+         color: black;
+         text-align: center;
+        }
+    }
