@@ -182,7 +182,7 @@
         left: 0;
         right: 0;
         z-index: -10;
-        background-image:url(img/1sfondo.jpeg);
+        background-image:url(img/sfondo-3.jpg);
         -webkit-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
@@ -250,7 +250,7 @@
         color: black;
         text-align:left;
         border: double;
-        background-color:rgba(255, 255, 255, 0.356);
+        background-color:rgba(255, 255, 255, 0.959);
        
        } 
        .container2{
