@@ -182,7 +182,7 @@
         left: 0;
         right: 0;
         z-index: -10;
-        background-image:url('img/yesfondo2.png');
+        background-image:url('img/yesfondo2.jpg');
         -webkit-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
@@ -371,7 +371,7 @@
         left: 0;
         right: 0;
         z-index: -10;
-        background-image:url('img/tablet.png');
+        background-image:url('img/tablet.jpg');
         -webkit-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
